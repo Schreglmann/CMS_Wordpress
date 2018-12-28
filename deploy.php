@@ -23,7 +23,7 @@ set('allow_anonymous_stats', false);
 
 // Hosts
 
-host('georg@37.120.187.53')
+host('root@37.120.187.53')
     ->set('deploy_path', '/var/www/{{application}}');    
 
 
