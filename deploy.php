@@ -4,10 +4,10 @@ namespace Deployer;
 require 'recipe/common.php';
 
 // Project name
-set('application', 'testseite');
+set('application', 'alex');
 
 // Project repository
-set('repository', 'https://github.com/Schreglmann/CMS_Wordpress.git');
+set('repository', 'https://github.com/Schreglmann/CMS_Wordpress');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true); 
@@ -23,8 +23,8 @@ set('allow_anonymous_stats', false);
 
 // Hosts
 
-host('root@37.120.187.53')
-    ->set('deploy_path', '/var/www/{{application}}');    
+host('georg@37.120.187.53')
+    ->set('deploy_path', '/home/georg/sites/{{application}}');    
 
 
 // Composer
