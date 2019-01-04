@@ -13,8 +13,8 @@ set('repository', 'https://github.com/Schreglmann/CMS_Wordpress');
 set('git_tty', true); 
 
 // Shared files/dirs between deploys 
-set('shared_files', ['src/wp-config.php']);
-set('shared_dirs', ['wp-content/uploads']);
+set('shared_files', ['public/wp-config.php']);
+set('shared_dirs', ['public/wp-content/uploads']);
 
 // Writable dirs by web server 
 //set('writable_mode', 'chown');
