@@ -44,7 +44,7 @@
 
     <body>
         <header>
-            <h1><a href='#'>Alex Mayer Test</a></h1>
+            <h1><a href='#'>Alex Mayer</a></h1>
             <nav>
                 <input type="checkbox" id="button" />
                 <label for="button" onclick></label>
