@@ -17,8 +17,8 @@ set('shared_files', ['wp-config.php']);
 set('shared_dirs', ['wp-content/uploads']);
 
 // Writable dirs by web server 
-set('writable_mode', 'chown');
-set('writable_dirs', ['wp-content/uploads']);
+//set('writable_mode', 'chown');
+//set('writable_dirs', ['wp-content/uploads']);
 set('allow_anonymous_stats', false);
 
 // Hosts
