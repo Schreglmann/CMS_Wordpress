@@ -5,7 +5,6 @@
     * create new images/icon-touch, eg. with https://realfavicongenerator.net/
 -->
 <html lang="de">
-
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="Alex Mayer ist ein mehrfach ausgezeichneter Salzburger Webdesigner">
