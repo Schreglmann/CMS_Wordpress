@@ -15,7 +15,7 @@ set('git_tty', true);
 // Shared files/dirs between deploys 
 set('shared_files', ['public/wp-config.php']);
 set('shared_dirs', ['public/wp-content/uploads']);
-
+ 
 // Writable dirs by web server 
 //set('writable_mode', 'chown');
 //set('writable_dirs', ['wp-content/uploads']);
